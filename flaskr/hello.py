@@ -18,12 +18,20 @@ posts = [
 
 @app.route('/')
 @app.route('/home')
-def hello_world():
+def get_home_page():
     return render_template('home.html', posts=posts, title='Home')
 
 @app.route('/about')
-def about():
+def get_about_page():
     return render_template('about.html', title='About')
+
+@app.route('/projects')
+def get_project_page():
+    return render_template('projects.html', posts=posts, title='Projects')
+
+@app.route('/contact')
+def get_contact_page():
+    return render_template('contact.html', posts=posts, title='Contact')
 
 if __name__ == '__main__':
     app.run(debug=True)

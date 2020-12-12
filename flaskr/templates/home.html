@@ -1,5 +1,13 @@
 {% extends "layout.html" %}
 {% block content %}
+    <div class="intro">
+        <h1 class="hi">Hi there!<span class="wave">👋</span></h1>
+        
+            <div><img src="./static/img/profile_photo.jpg" alt="profile image" width=33% height=33%>
+            <span class="intro-description">My name is Jeannie and I am </span>
+            </div>
+    </div>
+    
     {% for post in posts %}
         <h1>{{ post.title }}</h1>
         <p>By {{ post.author }} on {{ post.date_posted }}</p>
