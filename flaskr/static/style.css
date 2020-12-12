@@ -1,10 +1,68 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Font */
+@font-face {
+    font-family: 'circular-std-black';
+    src: url('./font/CircularStd-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-std-black-italic';
+    src: url('./font/CircularStd-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'circular-std-bold';
+    src: url('./font/CircularStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-std-bold-italic';
+    src: url('./font/CircularStd-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'circular-std-medium';
+    src: url('./font/CircularStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-std-medium-italic';
+    src: url('./font/CircularStd-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'circular-std-book';
+    src: url('./font/CircularStd-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-std-book-italic';
+    src: url('./font/CircularStd-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: circular-std-medium, Arial, sans-serif;
     color: rebeccapurple;
 }
 
@@ -15,16 +73,23 @@ html {
 }
 
 h1 {
+    font-size: 2rem;
+    /* border: 0.5rem solid red; */
+    margin-top: 3rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+
+.nav-link {
     font-size: 1.5rem;
-    color: rebeccapurple;
-    border: 0.3rem solid rgb(16, 16, 158);
 }
 
-p {
-    font-size: 1rem;
-    color: rebeccapurple;
+.navbar-nav {
+    margin-right: 3rem;
 }
 
-.title {
-    color: red;
-}
+
+
