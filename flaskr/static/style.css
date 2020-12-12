@@ -1,0 +1,30 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: rebeccapurple;
+}
+
+html {
+    /* 10 pixels */
+    font-size: 62.5%;
+    color: rebeccapurple;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: rebeccapurple;
+    border: 0.3rem solid rgb(16, 16, 158);
+}
+
+p {
+    font-size: 1rem;
+    color: rebeccapurple;
+}
+
+.title {
+    color: red;
+}
