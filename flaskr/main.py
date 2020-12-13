@@ -3,24 +3,24 @@ app = Flask(__name__)
 
 posts = [
     {
-        'author': 'Jeannie An',
-        'title': 'Blog Post 1',
-        'content': 'First content',
-        'date_posted': '12 December 2020'
+        'title': 'Pathfinding Visualiser',
+        'language': 'C++',
+        'library': 'SFML 2D Graphics, ImGui',
+        'content': ''
     },
     {
-        'author': 'Jeannie An',
-        'title': 'Blog Post 2',
-        'content': 'Second content',
-        'date_posted': '12 December 2020'
+        'title': 'Tetris',
+        'language': 'C++',
+        'library': 'SFML 2D Graphics, SQLite',
+        'content': ''
     }
 ]
 
-@app.route('/')
 @app.route('/home')
 def get_home_page():
     return render_template('home.html', posts=posts, title='Home')
 
+@app.route('/')
 @app.route('/about')
 def get_about_page():
     return render_template('about.html', title='About')
