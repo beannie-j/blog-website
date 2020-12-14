@@ -8,6 +8,14 @@ posts = [
         'library': 'SFML 2D Graphics, ImGui',
         'content': ''
     },
+
+    {
+        'title': 'Agario clone',
+        'language': 'Python',
+        'library': 'Pygame',
+        'content': ''
+    },
+
     {
         'title': 'Tetris',
         'language': 'C++',
