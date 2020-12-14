@@ -138,8 +138,8 @@ h2 {
 }
 
 .footer-wrap {
-    /* padding-bottom: 2.5rem; */
     text-align: center;
+    margin-top: 3rem;
 }
 
 .profile-image {
@@ -176,6 +176,7 @@ h2 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3.5rem;
     
 }
 
@@ -189,15 +190,20 @@ h2 {
 #card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    /* margin: 1rem 0rem; */
     border-radius: 2.2rem;
-    padding: 0.9rem 0rem 2rem 5rem;
+    /* padding: 0.9rem 0rem 2rem 5rem; */
     margin-bottom: 2.5rem;
-    width: 55%;
+    padding: 0.5rem 0rem 1rem 0rem;
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* box-shadow: 0 8px 16px 0 #02ce5e; */
 }
 
 .project-description {
@@ -205,5 +211,7 @@ h2 {
 }
 
 .projects-heading {
-    margin: 3rem 0rem;
+    margin: 2rem 0rem;
+    text-align: center;
 }
+
