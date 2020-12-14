@@ -132,7 +132,7 @@ h2 {
   }
 
 .hi {
-    color: #02ce5e;
+    color: rgba(53, 0, 211, 0.9);
     padding-bottom: 1rem;
     text-align: center;
 }
@@ -170,8 +170,8 @@ h2 {
 #download-cv-button {
     text-decoration: none;
     background-color: white; 
-    color: #02ce5e;  
-    border: 2px solid #02ce5e;
+    color:rgba(53, 0, 211, 0.9);
+    border: 2px solid rgba(53, 0, 211, 0.9);
     padding: 1rem;
     border-radius: 2.2rem;
     font-size: 150%;  
@@ -185,9 +185,9 @@ h2 {
 }
 
 #download-cv-button:hover {
-    background-color: #02ce5e; 
+    background-color: rgba(53, 0, 211, 0.9);
     color: white;
-    border: 2px solid #02ce5e;
+    border: 2px solid rgba(53, 0, 211, 0.9);
 }
 
 .projects-heading {
@@ -242,11 +242,11 @@ h2 {
 }
 
 .box7 {
-    background-color: rgb(53,0,211,1);
+    background-color: rgb(53,0,211,0.9);
 }
 
 .box7:hover {
-    background-color: rgb(53,0,211,0.9);
+    background-color: rgb(53,0,211,1);
 }
 
 .box8 {

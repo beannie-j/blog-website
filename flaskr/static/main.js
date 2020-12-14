@@ -2,6 +2,7 @@ $(document).ready(function () {
     $(".nav-link").removeClass("active");
     let current = location.pathname;
     if (current == '/') $('.about').addClass('active')
+    if (current == '/about') $('.about').addClass('active')
     if (current == '/projects') $('.projects').addClass('active')
     if (current == '/contact') $('.contact').addClass('active')
 });
