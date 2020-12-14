@@ -1,13 +1,19 @@
 {% extends "layout.html" %}
 {% block content %}
     <h2 class="projects-heading">These are some of my projects which I created during my free time. </h2>
-    <div class="card-container">
     {% for post in posts %}
-        <div id="card">
-            <h1 class="project-name">{{ post.title }}</h1>   
-            <p class="project-description">Written in {{ post.language }} with {{ post.library }}</p>
-            <p class="project-content">{{ post.content }}</p>
-        </div>
     {% endfor %}
+    <div class="box-container">
+        
+        <div class="box4 box">
+            <p class="project-title">Pathfinding Visualiser</p>
+            <p class="project-content">Written in C++ with SFML and ImGui</p>
+        </div>
+        <div class="box5 box"><p class="project-title">Tetris</p></div>
+        <div class="box6 box"><p class="project-title">Agario Clone</p></div>
+        <div class="box7 box"><p class="project-title">TBC</p></div>
+        <div class="box8 box"><p class="project-title">30 Days of JavaScript</p></div>
+        <div class="box3 box"><p class="project-title">TBC</p></div>
     </div>
 {% endblock content %}
+

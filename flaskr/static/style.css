@@ -142,6 +142,10 @@ h2 {
     margin-top: 3rem;
 }
 
+.footer-text {
+    font-size: 1.5rem;
+}
+
 .profile-image {
     border-radius: 10%;
     display: block;
@@ -186,32 +190,83 @@ h2 {
     border: 2px solid #02ce5e;
 }
 
-
-#card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 2.2rem;
-    /* padding: 0.9rem 0rem 2rem 5rem; */
-    margin-bottom: 2.5rem;
-    padding: 0.5rem 0rem 1rem 0rem;
-    text-align: center;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-#card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    /* box-shadow: 0 8px 16px 0 #02ce5e; */
-}
-
-.project-description {
-    font-size: 1.3rem;
-}
-
 .projects-heading {
     margin: 2rem 0rem;
     text-align: center;
 }
 
+.box-container {
+    /* border: 3px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 35rem;
+    width: 35rem;
+    border-radius: 1rem;
+}
+
+.box3 {
+    background-color: rgba(53, 0, 211, 0.9);
+}
+
+.box3:hover {
+    background-color: rgba(53, 0, 211, 1);
+}
+
+.box4 {
+    background-color: rgba(12, 0, 50, 0.9);
+}
+
+.box4:hover {
+    background-color: rgba(12, 0, 50, 1);
+}
+
+.box5 {
+    background-color: rgb(25,0,97, 0.9);
+}
+
+.box5:hover {
+    background-color: rgb(25,0,97, 1);
+}
+
+.box6 {
+    background-color: rgba(36,0,144, 0.9);
+}
+
+.box6:hover {
+    background-color:  rgba(36,0,144, 1);
+}
+
+.box7 {
+    background-color: rgb(53,0,211,1);
+}
+
+.box7:hover {
+    background-color: rgb(53,0,211,0.9);
+}
+
+.box8 {
+    background-color: rgba(72, 207, 173, 0.9);
+}
+
+.box8:hover {
+    background-color: rgba(72, 207, 173, 1);
+}
+
+.project-title {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.project-content {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 0.5rem;
+}
